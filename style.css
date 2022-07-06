@@ -1,0 +1,304 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.first-banner {
+    background-image: url(donation9.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+
+
+}
+
+.text-1 {
+    margin-right: 10%;
+    margin-left: 50%;
+    font-size: 53px;
+    font-weight: bold;
+    font-style: italic;
+    overflow: hidden;
+    border-right: .10em solid #FF8D8D;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .4rem;
+    animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+
+}
+
+@keyframes demo-typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes demo-cursor {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+}
+
+.button {
+    padding-top: 30px;
+}
+
+.Donate-now {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    background-color: tomato;
+    border-radius: 6px;
+
+}
+
+.btn:hover {
+    color: black;
+    cursor: pointer;
+    background-color: #2e54d3;
+}
+
+.text-2 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.dropdown-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.today-donate {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.amount-box {
+    display: flex;
+    padding-left: 30%;
+    margin-top: 10px;
+
+}
+
+.box {
+    padding: 20px 20px;
+    margin: 20px;
+    transition: all 0.04s ease;
+    background-color: whitesmoke;
+}
+
+.box-2 {
+    padding: 20px 20px;
+    margin: 20px;
+    border: 2px solid tomato;
+    color: tomato;
+    transition: all 0.04s ease;
+}
+
+.box:hover {
+    background-color: #2e54d3;
+}
+
+.box-2:hover {
+    background-color: #2e54d3;
+}
+
+
+.row {
+    text-align: center;
+    color: grey;
+}
+
+.row hr {
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.donate-plan {
+    padding-top: 30px;
+    text-align: center;
+    margin: 10px 20px 0px 20px;
+
+
+}
+
+.heading {
+    font-size: 50px;
+    margin-bottom: 5px
+}
+
+.donate-box {
+    margin: 34px;
+    display: flex;
+}
+
+
+
+.donatebox-1 {
+    padding: 34px;
+    margin: 2px 55px;
+    background: #f2f2f2;
+
+    margin-bottom: 20px;
+    background-color: #E0FFFF;
+
+}
+
+.donatebox-2 {
+    padding: 34px;
+    margin: 2px 55px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    background-color: #FFF0F5;
+}
+
+.donatebox-2 img {
+    width: 50px;
+}
+
+
+.donatebox-3 {
+    padding: 34px;
+    margin: 2px 55px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    background-color: #FFE4B5;
+}
+
+.donatebox-3 img {
+    width: 50px;
+}
+
+
+.blog {
+    display: flex;
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+section .left {
+    width: 100%;
+    padding: 40px;
+
+    margin: 0px 30px 0px 30px;
+}
+
+section .right {
+    width: 70%;
+    height: 400px;
+    padding: 30px;
+
+    margin-left: 40px;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+
+.second-right {
+    width: 100%;
+    padding: 40px;
+
+    margin-left: 40px;
+}
+
+.second-left {
+    width: 70%;
+    height: 400px;
+    padding: 30px;
+
+    margin-left: 20px;
+    border-radius: 7px;
+}
+
+.blog-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.second-blog {
+    display: flex;
+
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.contact {
+    text-align: center;
+
+}
+
+
+.from {
+    margin: 30px 400px 30px 400px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+
+.from input {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+
+
+
+.from button {
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: tomato;
+    cursor: pointer;
+    translate: .3s;
+}
+
+.from button:hover {
+    background: #2e54d3;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 120px;
+}
+
+
+.footer-heading {
+
+    font-size: 29px;
+    color: tomato;
+    padding-top: 50px;
+
+
+}
